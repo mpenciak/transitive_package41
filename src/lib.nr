@@ -5,7 +5,7 @@ pub trait TraitFourOne {
 }
 
 pub struct StructFourOne {
-    x : Field
+    pub x: Field,
 }
 
 impl TraitFourOne for StructFourOne {
